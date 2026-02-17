@@ -1,69 +1,36 @@
 version: 1
 extends:
 - https://raw.githubusercontent.com/Open-Scholar-Nexus/oaktree-sapling/v0.1.0/nexus.yml
-- https://raw.githubusercontent.com/Open-Scholar-Nexus/oaktree-sapling-config/v0.1.0/isp-micropublication-2025.yml
+- https://raw.githubusercontent.com/Open-Scholar-Nexus/oaktree-sapling-config/v0.1.0/climatematch-2023.yml
 
 project:
-  # Uncomment and fill when published
-  # doi: 10.5281/zenodo.XXXXXXX
-  # date: YYYY-MM-DD
+  doi: 10.5281/zenodo.11069131
+  date: 2024-04-26
   authors:
-  - name: Doe, J.
-    orcid: 0000-0000-0000-0001
+  - name: Sthitapragya Ray
+    orcid: 0000-0003-0331-5596
     affiliations:
-    - Department of Geosciences and Natural Resource Management, University of Copenhagen, Denmark
-    roles:
-    - Conceptualization
-    - Formal analysis
-    - Investigation
-    - Methodology
-    - Software
-    - Visualization
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Sharma, A.J.
-    orcid: 0000-0000-0000-0002
+    - Indian Institute of Technology Bhubaneswar, Bhubaneswar, India
+  - name: Elizaveta Baranova-Parfenova
     affiliations:
-    - Department of Earth Sciences, Indian Institute of Technology Bombay, Mumbai, India
-    roles:
-    - Formal analysis
-    - Investigation
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Tanaka, S.
+    - Graduate Institute of Mind, Brain and Consciousness, Taipei Medical University, Taipei, Taiwan
+  - name: Andrea A. Cabrera
     affiliations:
-    - College of Urban and Environmental Sciences, Peking University, Beijing, China
-    roles:
-    - Formal analysis
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Vera Gutierrez, C.
+    - Globe Institute, University of Copenhagen, Copenhagen, Denmark
+  - name: Diana Guzmán
     affiliations:
-    - Institute of Geology, Mining, and Metallurgy, Universidad Nacional Mayor de San Marcos, Lima, Peru
-    roles:
-    - Formal analysis
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Ndlovu, T.
+    - Department of Geosciences, National University of Colombia, Bogotá, Colombia
+  - name: Daria Proklova
     affiliations:
-    - Marine Research and Development, Oceanic Dynamics Ltd., Cape Town, South Africa
-    roles:
-    - Formal analysis
-    - Writing - review & editing
+    - Independent Researcher, Berlin, Germany
 
   toc:
   - file: index.md
 
-  id: isp-micropublication-template
-  title: This is the title of our awesome micropublication
+  id: enso-upwelling-northwest-africa
+  title: Influence of ENSO on the Coastal Upwelling along Northwest Africa
   keywords:
-  - keyword1
-  - keyword2
-  - keyword3
-  - keyword4
-  github: https://github.com/Open-Scholar-Nexus/isp-micropublication-template
-  bibliography:
-  - bib.bib
-  # downloads:
-  # - file: supplementary-material.zip
-  #   title: Supplementary Material
+  - ENSO
+  - Coastal Upwelling
+  - Modoki El Niño
+  github: https://github.com/Open-Scholar-Nexus/ray-2023-enso-upwelling-africa
